@@ -43,6 +43,7 @@ public class ServerSocketMain2 {
             socket.close();
         } catch (Exception e) {
             e.printStackTrace();
+
         }
     }
 }
