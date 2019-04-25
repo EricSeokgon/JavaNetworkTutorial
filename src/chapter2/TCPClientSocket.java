@@ -39,6 +39,5 @@ public class TCPClientSocket {
             System.out.print(promptMsg);
         }
         socket.close();
-
     }
 }
