@@ -33,5 +33,6 @@ public class UDPechoServer {
 
         System.out.println("Received a  packet:[IP Address=" + remoteAddr
                 + ", port=" + remotePort + ", message=" + msg + "]");
+
     }
 }
