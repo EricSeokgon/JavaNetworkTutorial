@@ -1,10 +1,10 @@
-package chapter2;
+package chapter3;
 
 import java.net.DatagramPacket;
 import java.net.InetAddress;
 import java.net.MulticastSocket;
 
-public class UDPMulticast {
+public class UDPMulticastMessages {
     public static void main(String[] args) throws Exception {
         int mcPort = 12345;
         String mcIPStr = "230.1.1.1";
