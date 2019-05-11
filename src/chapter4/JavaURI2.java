@@ -1,7 +1,10 @@
 package chapter4;
 
+import java.net.MalformedURLException;
+import java.net.URL;
+
 public class JavaURI2 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws MalformedURLException {
         String baseURLStr = "http://www.ietf.org/rfc/rfc3986.txt";
         String relativeURLStr = "rfc2732.txt";
         URL baseURL = new URL(baseURLStr);
