@@ -26,6 +26,5 @@ public class JavaURI3 {
         String urlStr = "http://java2s.com";
         String content = getURLContent(urlStr);
         System.out.println(content);
-
     }
 }
